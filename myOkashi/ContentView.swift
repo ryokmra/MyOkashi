@@ -11,11 +11,11 @@ struct ContentView: View {
     
     //@observedObject 状態変数 複数のデータを外部ファイルと共有する
     //okashiDataを参照
-    @ObservedObject var okashiDataList = okashiData()
+    @ObservedObject private var okashiDataList = okashiData()
     //状態変数 入力された文字列を保持する
-    @State var inputText = ""
+    @State private var inputText = ""
     //状態変数　safariの表示有無を管理
-    @State var showSafari = false
+    @State private var showSafari = false
     
     var body: some View {
       
@@ -61,7 +61,7 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+private struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
