@@ -6,7 +6,7 @@
 表示されたお菓子の画像をタップするとWebページが表示される
 
 ## このサンプルで学んだこと
-- Webページを表示するSFSafariViewControllerがSwiftUIに対応していないので使用できるようにUIViewControllerRepresentableでラップする
+- Webページを表示するSFSafariViewControllerがSwiftUIに対応していないので、使用できるようにUIViewControllerRepresentableでラップする
 - パブリッシャとサブスクライバーの概念
 
 ## 利用したAPI
