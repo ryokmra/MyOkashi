@@ -43,7 +43,7 @@ struct ContentView: View {
                         Image(uiImage: okashi.image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(height: 45)
+                            .frame(height: 40)
                         //名前
                         Text(okashi.name)
                     }//HStackここまで
